@@ -11,7 +11,17 @@ To write a Python program that calculates the **sum of all elements** in a list.
 ## 🧾 Program
 
 Add code here
+```
+def adding(n):
+     return sum(n)       
+
+num =[-10, 5]
+print(adding(num))
+```
 
 ## Output
 
+![image](https://github.com/user-attachments/assets/70e1a9ff-2d2c-45ed-b17b-11b9c046faaf)
+
 ## Result
+The expected output is achieved.
