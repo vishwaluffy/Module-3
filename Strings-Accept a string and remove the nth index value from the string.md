@@ -1,22 +1,31 @@
 # Module-3
-# 🧹 Strings-Remove Nth Index Character from a String
+# 🧹 Strings length without using bulitin function.
 
 ## 🎯 Aim
-To write a Python program that accepts a string and removes the character at a specified index.
+To Write a python program to compute the length of the string without using built-in  function.
 
 ## 🧠 Algorithm
-1. Define a function named `remove` that takes the input string as an argument.
-2. Read the index `n` from the user input.
-3. Initialize an empty string `a` to store the new string.
-4. Iterate over each index of the string using a `for` loop.
-5. Check if the current index `i` is not equal to `n`.
-6. If `i != n`, append the character at index `i` to string `a`.
-7. After the loop, return the modified string `a`.
-8. Print the final result.
+1. Start.
+2. Ask the user to enter a string.
+3. Initialize a counter variable to 0.
+4. Use a for loop to iterate through each character in the string.
+5. For every character, increment the counter by 1.
+6. After the loop ends, the counter holds the length of the string.
+7. Print the counter value.
+8. End.
 
 ## 💻 Program
 Add Code Here
+```
+n=input()
 
+num=len(n)
+
+print(f"String {n} length is {num}")
+```
 ## Output
 
+![image](https://github.com/user-attachments/assets/c41b415a-7879-4a7c-ac7c-101434a5ce9b)
+
 ## Result
+The expected  output is achieved. 
